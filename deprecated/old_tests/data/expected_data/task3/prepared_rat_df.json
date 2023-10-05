@@ -1,0 +1,4 @@
+{"index":1,"ratio_key":"1998F101082712","facility_id":"101082712","start_date":"1998-10-01","end_date":"2020-12-31","valid_flag":5,"ratios":[{"zipped_rev":0.700891,"zipped_chg":0.328443},{"zipped_rev":0.700891,"zipped_chg":0.328443}]}
+{"index":2,"ratio_key":"1998F101040360","facility_id":"101040360","start_date":"1998-10-01","end_date":"1998-12-31","valid_flag":5,"ratios":[{"zipped_rev":0.578016,"zipped_chg":0.294906},{"zipped_rev":0.578016,"zipped_chg":0.294906}]}
+{"index":3,"ratio_key":"1998F101062140","facility_id":"101062140","start_date":"1998-10-01","end_date":"2020-12-31","valid_flag":5,"ratios":[{"zipped_rev":0.898432,"zipped_chg":0.477667},{"zipped_rev":0.787276,"zipped_chg":0.559783}]}
+{"index":4,"ratio_key":"1998F101090210","facility_id":"101090210","start_date":"1998-10-01","end_date":"1998-12-31","valid_flag":5,"ratios":[{"zipped_rev":0.998594,"zipped_chg":0.484946},{"zipped_rev":2.251893,"zipped_chg":1.139217}]}

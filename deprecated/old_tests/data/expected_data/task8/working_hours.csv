@@ -1,0 +1,20 @@
+business_id,name,key,value,work_hours,is_work_12_hours,is_open_for_24h
+f9NumwFMBDn751xgFiRbNA,The Range At Lake Norman,Monday,10:0-18:0,8.0,false,false
+f9NumwFMBDn751xgFiRbNA,The Range At Lake Norman,Tuesday,11:0-20:0,9.0,false,false
+f9NumwFMBDn751xgFiRbNA,The Range At Lake Norman,Wednesday,10:0-18:0,8.0,false,false
+f9NumwFMBDn751xgFiRbNA,The Range At Lake Norman,Thursday,11:0-20:0,9.0,false,false
+f9NumwFMBDn751xgFiRbNA,The Range At Lake Norman,Friday,11:0-20:0,9.0,false,false
+f9NumwFMBDn751xgFiRbNA,The Range At Lake Norman,Saturday,11:0-20:0,9.0,false,false
+f9NumwFMBDn751xgFiRbNA,The Range At Lake Norman,Sunday,13:0-18:0,5.0,false,false
+XNoUzKckATkOD1hP6vghZg,Felinus,Monday,0:0-0:0,24.0,true,true
+XNoUzKckATkOD1hP6vghZg,Felinus,Tuesday,11:0-11:0,24.0,true,true
+XNoUzKckATkOD1hP6vghZg,Felinus,Wednesday,10:0-18:0,8.0,false,false
+XNoUzKckATkOD1hP6vghZg,Felinus,Thursday,11:0-20:0,9.0,false,false
+XNoUzKckATkOD1hP6vghZg,Felinus,Friday,11:0-20:0,9.0,false,false
+XNoUzKckATkOD1hP6vghZg,Felinus,Saturday,11:0-20:0,9.0,false,false
+XNoUzKckATkOD1hP6vghZg,Felinus,Sunday,13:0-18:0,5.0,false,false
+6OAZjbxqM5ol29BuHsil3w,Nevada House of Hose,Monday,7:0-16:0,9.0,false,false
+6OAZjbxqM5ol29BuHsil3w,Nevada House of Hose,Tuesday,7:0-16:0,9.0,false,false
+6OAZjbxqM5ol29BuHsil3w,Nevada House of Hose,Wednesday,7:0-16:0,9.0,false,false
+6OAZjbxqM5ol29BuHsil3w,Nevada House of Hose,Thursday,7:0-16:0,9.0,false,false
+6OAZjbxqM5ol29BuHsil3w,Nevada House of Hose,Friday,7:0-16:0,9.0,false,false

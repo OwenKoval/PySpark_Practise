@@ -1,0 +1,5 @@
+output-format: grouped
+inherits:
+    - strictness_high
+    - full_pep8
+max-line-length: 120

@@ -1,0 +1,6 @@
+{"user_id": "1","name": "user_name1","friends": "friend1, friend2, friend3, friend4"}
+{"user_id": "2","name": "user_name2","friends": ""}
+{"user_id": "3","name": "user_name3"}
+{"user_id": "4","name": "user_name4","friends": "friend1, friend2, , friend3, friend4"}
+{"user_id": "5"}
+{"name": "user_name6","friends": "friend1"}

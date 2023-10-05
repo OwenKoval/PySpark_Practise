@@ -1,0 +1,66 @@
+"""
+Utils file with main functions
+
+"""
+
+from pyspark.sql import SparkSession
+
+
+def spark_builder(appname='Task 2', partitions=4):
+    """
+    The entry point of SparkSession
+    :param appname: set the name of your SparkSession
+    :param partitions: set the number of partitions
+    """
+    return (SparkSession.builder
+            .master('local')
+            .appName(appname)
+            .config('spark.sql.legacy.timeParserPolicy', 'LEGACY')
+            .config('spark.shuffle.partitions', partitions)
+            .getOrCreate())
+
+
+def read_csv(spark, path=None, schema_csv=None,
+             header='false', sep=',', inferschema='false'):
+    """
+    :param spark: SparkSession to read the file
+    :param path: path to file to read it
+    :param schema_csv: use schema which defined by developer
+    :param sep: while reading use sep to separate the data
+    :param header: true or false use header in reading df
+    :param inferschema: use inferschema in reading
+    :return csv_df: dataframe with data
+    """
+
+    return (spark.read
+            .options(header=header, sep=sep)
+            .csv(path, inferSchema=inferschema, schema=schema_csv))
+
+
+def write_result_df(df, file_path='', header='true'):
+    """
+    Write the df to folder
+    :param header: rue or false use header in writing result
+    :param file_path: path to folder where result will save
+    :param df: result dataframe after transformation
+    :return: csv file with results
+    """
+    (df.write
+     .option('header', header)
+     .mode('overwrite')
+     .csv(file_path)  # Write DataFrame to CSV file
+     )
+
+def write_result_df_json(df, path_save_file='', header='true'):
+    """
+    Write the df to folder with format json
+    :param header: rue or false use header in writing result
+    :param path_save_file: path to folder where result will save
+    :param df: result dataframe after transformation
+    :return: json file with results
+    """
+    (df.write
+     .option('header', header)
+     .mode('overwrite')
+     .json(path_save_file)  # Write DataFrame to CSV file
+     )
